@@ -1,0 +1,53 @@
+{
+  "AppInfo": {
+    "NAME": "Automation"
+  },
+  "DEFAULT": {
+    "DATAFOLDER": "test_log",
+    "SECRET_KEY": "secret-key-of-myapp",
+    "ADMIN_NAME": "administrator",
+    "AWS_DEFAULT_REGION": "ap-northeast-2",
+    "MAX_IMAGE_SIZE": 5242880
+  },
+  "WEB": {
+    "TEST_WEB": "TRUE",
+
+    "URL2": "http://192.168.2.145:94/",
+    "Username2": "manish.bisht@mySantech.com",
+    "Password2": "Test@1234",
+
+    "URL": "http://inetwork7qa.myienroll.us/",
+    "Username": "manish.bisht@mySantech.com",
+    "Password": "Santech@123"
+  },
+  "API": {
+    "TEST_API": "FALSE",
+
+    "URL1": "http://192.168.2.145:94/api/IExchange/IExchangeApiCall",
+    "CACHE_INIT_URL1": "http://192.168.2.145:94/api/IExchange/IExchangeApiCallCacheInit",
+
+    "URL": "http://inetwork7qa.myienroll.us/api/IExchange/IExchangeApiCall",
+    "CACHE_INIT_URL": "http://inetwork7qa.myienroll.us/api/IExchange/IExchangeApiCallCacheInit"
+  },
+  "SqlServerConnections": {
+    "Server1": "localhost",
+    "Database1": "ST-E1-DEV",
+    "User1": "msb",
+    "Password1": "test@1234",
+    "Trusted_Connection1": "No",
+
+    "Server": "192.168.2.145",
+    "Database": "ST-E1-DEV",
+    "User": "msb",
+    "Password": "123456",
+    "Trusted_Connection": "No"
+
+  },
+  "MongoConnections": {
+    "Client1": "mongodb://localhost:27017",
+    "Database1": "ST-E1-JSON-DEV",
+    "Client": "mongodb://192.168.2.145:27017",
+    "Database": "ST-E1-JSON-DEV"
+  }
+
+}

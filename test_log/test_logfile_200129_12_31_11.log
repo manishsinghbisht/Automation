@@ -1,0 +1,23 @@
+[I 200129 12:31:11 main:36] Test process initiated!
+[I 200129 12:31:11 main:37] Namespace()
+[I 200129 12:31:11 main:39] info check!
+[W 200129 12:31:11 main:40] warn check!
+[E 200129 12:31:11 main:41] error check!
+[I 200129 12:31:11 api_test_1:24] Reading test data..
+[I 200129 12:31:11 api_test_1:39] response: IX Cache init status: 200|| reason: OK || content: b'false'
+[I 200129 12:31:11 api_test_1:42] api_test_1 - test_iexchange_cache_init test executed!!
+[I 200129 12:31:11 api_test_1:76] API test completed!!
+[I 200129 12:31:11 api_test_1:24] Reading test data..
+[E 200129 12:31:11 api_test_1:73] name 'random' is not defined
+    Traceback (most recent call last):
+      File "D:\Santech\BitBucket\Automation\PySelenium\api_test_1.py", line 57, in test_api
+        str_npi = str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9))
+    NameError: name 'random' is not defined
+[I 200129 12:31:11 api_test_1:76] API test completed!!
+[I 200129 12:31:11 api_test_2:24] Reading test data..
+[E 200129 12:31:11 api_test_2:73] name 'random' is not defined
+    Traceback (most recent call last):
+      File "D:\Santech\BitBucket\Automation\PySelenium\api_test_2.py", line 57, in test_api
+        str_npi = str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9)) + str(random.randint(0,9))
+    NameError: name 'random' is not defined
+[I 200129 12:31:11 api_test_2:76] API test completed!!

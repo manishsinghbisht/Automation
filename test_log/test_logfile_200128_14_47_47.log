@@ -1,0 +1,16 @@
+[I 200128 14:47:47 main:36] Test process initiated!
+[I 200128 14:47:47 main:37] Namespace()
+[I 200128 14:47:47 main:39] info check!
+[W 200128 14:47:47 main:40] warn check!
+[E 200128 14:47:47 main:41] error check!
+[I 200128 14:47:47 api_test:23] Reading data template..
+[E 200128 14:47:49 api_test:42] Error in test_iexchange_cache_init
+[E 200128 14:47:49 api_test:43] argument of type 'int' is not iterable
+    Traceback (most recent call last):
+      File "D:\Santech\BitBucket\Automation\PySelenium\api_test.py", line 38, in test_iexchange_cache_init
+        self.assertIn(str(response.status_code), response.status_code)
+      File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\lib\unittest\case.py", line 1116, in assertIn
+        if member not in container:
+    TypeError: argument of type 'int' is not iterable
+[I 200128 14:47:49 api_test:64] API test completed!!
+[I 200128 14:47:49 api_test:23] Reading data template..

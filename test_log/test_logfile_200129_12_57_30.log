@@ -1,0 +1,14 @@
+[I 200129 12:57:30 main:36] Test process initiated!
+[I 200129 12:57:30 main:37] Namespace()
+[I 200129 12:57:30 main:39] info check!
+[W 200129 12:57:30 main:40] warn check!
+[E 200129 12:57:30 main:41] error check!
+[I 200129 12:57:30 api_test_1:22] Initiated api_test_1..
+[I 200129 12:57:30 api_test_1:26] Reading test data..
+[I 200129 12:57:30 api_test_1:31] Executing test_iexchange_cache_init..
+[I 200129 12:57:30 api_test_1:42] response: IX Cache init status: 200|| reason: OK || content: b'false'
+[I 200129 12:57:30 api_test_1:45] api_test_1 - test_iexchange_cache_init test executed!!
+[I 200129 12:57:30 api_test_1:80] API test completed!!
+[I 200129 12:57:30 api_test_1:22] Initiated api_test_1..
+[I 200129 12:57:30 api_test_1:26] Reading test data..
+[I 200129 12:57:30 api_test_1:52] Executing test_api..

@@ -1,0 +1,11 @@
+[I 200128 14:55:34 main:36] Test process initiated!
+[I 200128 14:55:34 main:37] Namespace()
+[I 200128 14:55:34 main:39] info check!
+[W 200128 14:55:34 main:40] warn check!
+[E 200128 14:55:34 main:41] error check!
+[I 200128 14:55:34 api_test:23] Reading data template..
+[I 200128 14:55:34 api_test:38] response: IX Cache init status: 200|| reason: OK || content: b'false'
+[I 200128 14:55:34 api_test:41] test_iexchange_cache_init test executed!!
+[I 200128 14:55:34 api_test:65] API test completed!!
+[I 200128 14:55:34 api_test:23] Reading data template..
+[I 200128 14:55:34 api_test:55] response: API response status: 415|| reason: Unsupported Media Type || json: <bound method Response.json of <Response [415]>> || content: b''

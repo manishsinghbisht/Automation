@@ -1,0 +1,16 @@
+[I 200128 14:48:57 main:36] Test process initiated!
+[I 200128 14:48:57 main:37] Namespace()
+[I 200128 14:48:57 main:39] info check!
+[W 200128 14:48:57 main:40] warn check!
+[E 200128 14:48:57 main:41] error check!
+[I 200128 14:48:57 api_test:23] Reading data template..
+[I 200128 14:49:05 api_test:39] IX Cache init status: 200|| reason: OK || content: b'false'
+[I 200128 14:49:26 api_test:40] test_iexchange_cache_init test executed!!
+[I 200128 14:49:26 api_test:64] API test completed!!
+[I 200128 14:49:26 api_test:23] Reading data template..
+[E 200128 14:49:55 api_test:61]
+    Traceback (most recent call last):
+      File "D:\Santech\BitBucket\Automation\PySelenium\api_test.py", line 55, in test_api
+        assert "200" in response_content
+    AssertionError
+[I 200128 14:50:14 api_test:64] API test completed!!

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PySelenium", "PySelenium\PySelenium.pyproj", "{6D8B053E-BDE7-4E85-8932-F388DE54CB7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test_log", "test_log", "{4E1783A9-A0F2-482F-921A-2A84538DABC1}"
+	ProjectSection(SolutionItems) = preProject
+		test_log\test_logfile_200124_17_53_36.log = test_log\test_logfile_200124_17_53_36.log
+		test_log\test_logfile_200128_14_57_28.log = test_log\test_logfile_200128_14_57_28.log
+		test_log\test_logfile_200128_15_14_17.log = test_log\test_logfile_200128_15_14_17.log
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D8B053E-BDE7-4E85-8932-F388DE54CB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8B053E-BDE7-4E85-8932-F388DE54CB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C0890E6-C38B-42EC-9B69-B6F58D86D35C}
+	EndGlobalSection
+EndGlobal

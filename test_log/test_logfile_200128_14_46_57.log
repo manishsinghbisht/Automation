@@ -1,0 +1,6 @@
+[I 200128 14:46:57 main:36] Test process initiated!
+[I 200128 14:46:57 main:37] Namespace()
+[I 200128 14:46:57 main:39] info check!
+[W 200128 14:46:57 main:40] warn check!
+[E 200128 14:46:57 main:41] error check!
+[I 200128 14:46:57 api_test:23] Reading data template..

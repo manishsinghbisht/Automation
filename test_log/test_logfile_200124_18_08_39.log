@@ -1,0 +1,7 @@
+[I 200124 18:08:39 main:35] Test process initiated!
+[I 200124 18:08:39 main:36] Namespace()
+[I 200124 18:08:39 main:38] info check!
+[W 200124 18:08:39 main:39] warn check!
+[E 200124 18:08:39 main:40] error check!
+[I 200124 18:08:58 prv_list_search:56] Login test executed!!
+[I 200124 18:09:29 prv_list_search:107] Provider List and search test executed!

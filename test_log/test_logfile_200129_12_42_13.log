@@ -1,0 +1,23 @@
+[I 200129 12:42:13 main:36] Test process initiated!
+[I 200129 12:42:13 main:37] Namespace()
+[I 200129 12:42:13 main:39] info check!
+[W 200129 12:42:13 main:40] warn check!
+[E 200129 12:42:13 main:41] error check!
+[I 200129 12:42:13 api_test_1:22] Initiated api_test_1..
+[I 200129 12:42:13 api_test_1:26] Reading test data..
+[I 200129 12:42:13 api_test_1:31] Executing test_iexchange_cache_init..
+[I 200129 12:42:13 api_test_1:42] response: IX Cache init status: 200|| reason: OK || content: b'false'
+[I 200129 12:42:13 api_test_1:45] api_test_1 - test_iexchange_cache_init test executed!!
+[I 200129 12:42:13 api_test_1:80] API test completed!!
+[I 200129 12:42:13 api_test_1:22] Initiated api_test_1..
+[I 200129 12:42:13 api_test_1:26] Reading test data..
+[I 200129 12:42:13 api_test_1:52] Executing test_api..
+[I 200129 12:42:18 api_test_1:70] response: API response status: 200|| reason: OK || json: <bound method Response.json of <Response [200]>> || content: b'"API initiated!\\n,API_HIT_ID:81dc597e-7dbc-4969-8569-de0af298b5cf ***\\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed \\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed  \\n Error: Operation Failed ! Provider Id is null. IExchangeApiCall (AddProvider Demographic)"'
+[I 200129 12:42:18 api_test_1:73] api_test_1 test executed!!
+[I 200129 12:42:18 api_test_1:80] API test completed!!
+[I 200129 12:42:18 api_test_2:22] Initiated api_test_2..
+[I 200129 12:42:18 api_test_2:26] Reading test data..
+[I 200129 12:42:18 api_test_2:51] Executing test_api..
+[I 200129 12:42:19 api_test_2:69] response: API response status: 200|| reason: OK || json: <bound method Response.json of <Response [200]>> || content: b'"API initiated!\\n,API_HIT_ID:09a59500-d4f9-4a3e-877e-6b980d4ad8be ***\\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed \\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed  \\n Error: Operation Failed ! Provider Id is null. IExchangeApiCall (AddProvider Demographic)"'
+[I 200129 12:42:19 api_test_2:72] api_test_2 test executed!!
+[I 200129 12:42:19 api_test_2:79] API test completed!!

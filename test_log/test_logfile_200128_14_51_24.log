@@ -1,0 +1,20 @@
+[I 200128 14:51:24 main:36] Test process initiated!
+[I 200128 14:51:24 main:37] Namespace()
+[I 200128 14:51:24 main:39] info check!
+[W 200128 14:51:24 main:40] warn check!
+[E 200128 14:51:24 main:41] error check!
+[I 200128 14:51:24 api_test:23] Reading data template..
+[I 200128 14:51:35 api_test:40] IX Cache init status: 200|| reason: OK || content: b'false'
+[I 200128 14:51:35 api_test:41] test_iexchange_cache_init test executed!!
+[I 200128 14:51:35 api_test:65] API test completed!!
+[I 200128 14:51:35 api_test:23] Reading data template..
+[E 200128 14:51:36 api_test:62] '200' not found in '415'
+    Traceback (most recent call last):
+      File "D:\Santech\BitBucket\Automation\PySelenium\api_test.py", line 55, in test_api
+        self.assertIn("200", str(response.status_code))
+      File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\lib\unittest\case.py", line 1119, in assertIn
+        self.fail(self._formatMessage(msg, standardMsg))
+      File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\lib\unittest\case.py", line 693, in fail
+        raise self.failureException(msg)
+    AssertionError: '200' not found in '415'
+[I 200128 14:51:36 api_test:65] API test completed!!

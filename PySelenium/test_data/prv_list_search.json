@@ -1,0 +1,14 @@
+{
+  "page_home": {
+    "elem_first_id": "leftNav_ParentMenu_Provider",
+    "elem_second_id": "leftNav_ProviderList_Link"
+  },
+  "page_providerlist": {
+    "elem_firstname_id": "FirstName",
+    "elem_firstname_id_data": "John",
+    "elem_lastname_id": "LastName",
+    "elem_lastname_id_data": "Smith"
+
+
+  }
+}

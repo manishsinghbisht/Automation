@@ -1,0 +1,53 @@
+[I 200130 16:02:38 main:36] Test process initiated!
+[I 200130 16:02:38 main:37] Namespace()
+[I 200130 16:02:38 main:39] info check!
+[W 200130 16:02:38 main:40] warn check!
+[E 200130 16:02:38 main:41] error check!
+[I 200130 16:02:38 api_test_1:22] Initiated api_test_1..
+[I 200130 16:02:38 api_test_1:26] Reading test data..
+[I 200130 16:02:38 api_test_1:31] Executing test_iexchange_cache_init..
+[I 200130 16:02:41 api_test_1:42] response: IX Cache init status: 200|| reason: OK || content: b'false'
+[I 200130 16:02:41 api_test_1:45] api_test_1 - test_iexchange_cache_init test executed!!
+[I 200130 16:02:41 api_test_1:82] api_test_1 test completed!!
+[I 200130 16:02:41 api_test_1:22] Initiated api_test_1..
+[I 200130 16:02:41 api_test_1:26] Reading test data..
+[I 200130 16:02:41 api_test_1:52] Executing test_api..
+[I 200130 16:02:42 api_test_1:72] response: API response status: 500|| reason: Internal Server Error || json: <bound method Response.json of <Response [500]>> || content: b''
+[E 200130 16:02:42 api_test_1:79] '200' not found in '500'
+    Traceback (most recent call last):
+      File "D:\Santech\BitBucket\Automation\PySelenium\api_test_1.py", line 73, in test_api
+        self.assertIn("200", str(response.status_code))
+      File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\lib\unittest\case.py", line 1119, in assertIn
+        self.fail(self._formatMessage(msg, standardMsg))
+      File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\lib\unittest\case.py", line 693, in fail
+        raise self.failureException(msg)
+    AssertionError: '200' not found in '500'
+[I 200130 16:02:42 api_test_1:82] api_test_1 test completed!!
+[I 200130 16:02:42 api_test_2:22] Initiated api_test_2..
+[I 200130 16:02:42 api_test_2:25] Executing test_api_2..
+[I 200130 16:02:42 api_test_2:30] Reading test data..
+[I 200130 16:02:42 api_test_2:52] response: API response status: 500|| reason: Internal Server Error || json: <bound method Response.json of <Response [500]>> || content: b''
+[E 200130 16:02:42 api_test_2:59] '200' not found in '500'
+    Traceback (most recent call last):
+      File "D:\Santech\BitBucket\Automation\PySelenium\api_test_2.py", line 53, in test_api_2
+        self.assertIn("200", str(response.status_code))
+      File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\lib\unittest\case.py", line 1119, in assertIn
+        self.fail(self._formatMessage(msg, standardMsg))
+      File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\lib\unittest\case.py", line 693, in fail
+        raise self.failureException(msg)
+    AssertionError: '200' not found in '500'
+[I 200130 16:02:42 api_test_2:99] api_test_2 test completed!!
+[I 200130 16:02:42 api_test_2:22] Initiated api_test_2..
+[I 200130 16:02:42 api_test_2:62] Executing test_api_3..
+[I 200130 16:02:42 api_test_2:67] Reading test data..
+[I 200130 16:02:42 api_test_2:89] response: API response status: 500|| reason: Internal Server Error || json: <bound method Response.json of <Response [500]>> || content: b''
+[E 200130 16:02:42 api_test_2:96] '200' not found in '500'
+    Traceback (most recent call last):
+      File "D:\Santech\BitBucket\Automation\PySelenium\api_test_2.py", line 90, in test_api_3
+        self.assertIn("200", str(response.status_code))
+      File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\lib\unittest\case.py", line 1119, in assertIn
+        self.fail(self._formatMessage(msg, standardMsg))
+      File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\lib\unittest\case.py", line 693, in fail
+        raise self.failureException(msg)
+    AssertionError: '200' not found in '500'
+[I 200130 16:02:42 api_test_2:99] api_test_2 test completed!!

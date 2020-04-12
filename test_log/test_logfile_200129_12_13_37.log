@@ -1,0 +1,17 @@
+[I 200129 12:13:37 main:36] Test process initiated!
+[I 200129 12:13:37 main:37] Namespace()
+[I 200129 12:13:37 main:39] info check!
+[W 200129 12:13:37 main:40] warn check!
+[E 200129 12:13:37 main:41] error check!
+[I 200129 12:13:37 api_test_1:24] Reading test data..
+[I 200129 12:13:37 api_test_1:39] response: IX Cache init status: 200|| reason: OK || content: b'false'
+[I 200129 12:13:37 api_test_1:42] api_test_1 - test_iexchange_cache_init test executed!!
+[I 200129 12:13:37 api_test_1:69] API test completed!!
+[I 200129 12:13:37 api_test_1:24] Reading test data..
+[I 200129 12:13:45 api_test_1:59] response: API response status: 200|| reason: OK || json: <bound method Response.json of <Response [200]>> || content: b'"API initiated!\\n,API_HIT_ID:e8d13abd-88d8-410d-861c-fd40718bbe0a ***\\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed \\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed  \\n Error: Operation Failed ! Provider Id is null. IExchangeApiCall (AddProvider Demographic)"'
+[I 200129 12:13:45 api_test_1:62] api_test_1 test executed!!
+[I 200129 12:13:45 api_test_1:69] API test completed!!
+[I 200129 12:13:45 api_test_2:24] Reading test data..
+[I 200129 12:13:53 api_test_2:59] response: API response status: 200|| reason: OK || json: <bound method Response.json of <Response [200]>> || content: b'"API initiated!\\n,API_HIT_ID:737d231e-4f37-49d6-9d8f-e93dfe884169 ***\\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed \\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed  \\n Error: Operation Failed ! Provider Id is null. IExchangeApiCall (AddProvider Demographic)"'
+[I 200129 12:13:53 api_test_2:62] api_test_2 test executed!!
+[I 200129 12:13:53 api_test_2:69] API test completed!!

@@ -1,0 +1,29 @@
+[I 200129 15:34:13 main:36] Test process initiated!
+[I 200129 15:34:13 main:37] Namespace()
+[I 200129 15:34:13 main:39] info check!
+[W 200129 15:34:13 main:40] warn check!
+[E 200129 15:34:13 main:41] error check!
+[I 200129 15:34:13 api_test_1:22] Initiated api_test_1..
+[I 200129 15:34:13 api_test_1:26] Reading test data..
+[I 200129 15:34:13 api_test_1:31] Executing test_iexchange_cache_init..
+[I 200129 15:34:13 api_test_1:42] response: IX Cache init status: 200|| reason: OK || content: b'false'
+[I 200129 15:34:13 api_test_1:45] api_test_1 - test_iexchange_cache_init test executed!!
+[I 200129 15:34:13 api_test_1:82] api_test_1 test completed!!
+[I 200129 15:34:13 api_test_1:22] Initiated api_test_1..
+[I 200129 15:34:13 api_test_1:26] Reading test data..
+[I 200129 15:34:13 api_test_1:52] Executing test_api..
+[I 200129 15:34:13 api_test_1:72] response: API response status: 200|| reason: OK || json: <bound method Response.json of <Response [200]>> || content: b'"API initiated!\\n,API_HIT_ID:429e4230-9bb0-4c4c-9600-ad81d31bc750 ***\\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed \\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed  \\n Error: Operation Failed ! Provider Id is null. IExchangeApiCall (AddProvider Demographic)"'
+[I 200129 15:34:13 api_test_1:75] test_api test executed!!
+[I 200129 15:34:13 api_test_1:82] api_test_1 test completed!!
+[I 200129 15:34:13 api_test_2:22] Initiated api_test_2..
+[I 200129 15:34:13 api_test_2:25] Executing test_api_2..
+[I 200129 15:34:13 api_test_2:30] Reading test data..
+[I 200129 15:34:13 api_test_2:52] response: API response status: 200|| reason: OK || json: <bound method Response.json of <Response [200]>> || content: b'"API initiated!\\n,API_HIT_ID:c7d310db-3acc-4081-9f9b-b88e0ba3da1d ***\\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed \\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed  \\n Error: Operation Failed ! Provider Id is null. IExchangeApiCall (AddProvider Demographic)"'
+[I 200129 15:34:13 api_test_2:55] test_api_2 test executed!!
+[I 200129 15:34:13 api_test_2:99] api_test_2 test completed!!
+[I 200129 15:34:13 api_test_2:22] Initiated api_test_2..
+[I 200129 15:34:13 api_test_2:62] Executing test_api_3..
+[I 200129 15:34:13 api_test_2:67] Reading test data..
+[I 200129 15:34:13 api_test_2:89] response: API response status: 200|| reason: OK || json: <bound method Response.json of <Response [200]>> || content: b'"API initiated!\\n,API_HIT_ID:fa63fb32-a85f-44e9-bc59-773260beb574 ***\\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed \\n,IExchangeApiCall (AddProvider) : : , Model Validation Failed  \\n Error: Operation Failed ! Provider Id is null. IExchangeApiCall (AddProvider Demographic)"'
+[I 200129 15:34:13 api_test_2:92] test_api_3 test executed!!
+[I 200129 15:34:13 api_test_2:99] api_test_2 test completed!!

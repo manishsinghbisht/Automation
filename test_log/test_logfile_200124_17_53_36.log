@@ -1,0 +1,11 @@
+[I 200124 17:53:36 main:35] Test process initiated!
+[I 200124 17:53:36 main:36] Namespace()
+[I 200124 17:53:36 main:38] info check!
+[W 200124 17:53:36 main:39] warn check!
+[E 200124 17:53:36 main:40] error check!
+[E 200124 17:53:56 prv_list_search:60]
+    Traceback (most recent call last):
+      File "C:\Users\HP - PC\source\repos\PySelenium\prv_list_search.py", line 54, in test_login
+        assert "dddd" in driver.title
+    AssertionError
+[I 200124 17:54:28 prv_list_search:107] Provider List and search test executed!
