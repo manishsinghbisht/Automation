@@ -19,7 +19,7 @@ driver = webdriver.Chrome("chromedriver79_win32\chromedriver.exe")
 driver.get(videos_url)
 driver.implicitly_wait(100)
 
-#To navigate to the specifc pages we nned to get the buttons which a a text of "Watch" and then navigate to each side, scrape the data, save it and go back to the main page
+#To navigate to the specifc pages we need to get the buttons which a a text of "Watch" and then navigate to each side, scrape the data, save it and go back to the main page
 num_links = len(driver.find_elements_by_link_text('Watch'))
 code_blocks = []
 for i in range(num_links):
