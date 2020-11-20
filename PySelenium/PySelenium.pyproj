@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6d8b053e-bde7-4e85-8932-f388de54cb7d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>scrap_sharekhan_1.py</StartupFile>
+    <StartupFile>scrap_google_finance.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -38,6 +38,7 @@
     <Compile Include="pySelenium2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="scrap_google_finance.py" />
     <Compile Include="scrap_sharekhan_1.py" />
     <Compile Include="scrapper.py">
       <SubType>Code</SubType>

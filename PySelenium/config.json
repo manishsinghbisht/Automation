@@ -21,7 +21,7 @@
     "Password": "Santech@123"
   },
   "API": {
-    "TEST_API": "FALSE",
+    "TEST_API": "TRUE",
 
     "URL1": "http://192.168.2.145:94/api/IExchange/IExchangeApiCall",
     "CACHE_INIT_URL1": "http://192.168.2.145:94/api/IExchange/IExchangeApiCallCacheInit",

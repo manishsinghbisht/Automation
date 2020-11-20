@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PySelenium",
+    "\\test_log"
   ],
-  "SelectedNode": "\\TestAutomation.sln",
   "PreviewInSolutionExplorer": false
 }

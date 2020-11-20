@@ -6,6 +6,7 @@ import pandas as pd
 import re
 import os
 import urllib.request
+import time 
 
 base_url = "https://trade.sharekhan.com"
 
@@ -17,23 +18,29 @@ base_url = "https://trade.sharekhan.com"
 driver = webdriver.Chrome("chromedriver79_win32\chromedriver.exe")
 driver.get(base_url)
 driver.maximize_window() 
-driver.implicitly_wait(5)
+time.sleep(5) 
 
 username_input = driver.find_element_by_name('emailLoginId')
-username_input.send_keys("manishs80") 
+username_input.send_keys("mans80") 
 driver.implicitly_wait(5)
 #Enter key for NEXT link
 username_input.send_keys(u'\ue007')
 driver.implicitly_wait(5)
 
 username_pass = driver.find_element_by_name('br_pwd')
-username_pass.send_keys("l2@N@m0N@m@#") 
+username_pass.send_keys("l@#") 
 driver.implicitly_wait(5)
 #Enter key for LOGIN link
 username_pass.send_keys(u'\ue007')
-driver.implicitly_wait(5)
+driver.implicitly_wait(30)
 
-driver.find_elements_by_link_text('View Detailed Portfolio')[0].click()
+
+#elem = driver.find_element_by_partial_link_text("View Detailed Portfolio")
+# elem = driver.find_elements_by_link_text('View Detailed Portfolio')
+elem = driver.find_element_by_xpath("/html/body/div[3]/ui-view/div/div[2]/div[1]/div[2]/span[1]")
+
+elem.click()
+
 
 driver.implicitly_wait(50)
 
